@@ -1,0 +1,95 @@
+#: init/bamboo-service.js
+msgid "Plan CI doesn't exist"
+msgstr "El CI del plan no existe"
+
+#: init/bamboo-service.js
+msgid "Bamboo trigger"
+msgstr "Compilaci&oacute;n de Bamboo"
+
+#: init/bamboo-service.js
+msgid "Triggering build"
+msgstr "Activando compilación"
+
+#: init/bamboo-service.js
+msgid "Build not triggered. Timeout Reached."
+msgstr "Compilación no ejecutada. Tiempo de espera agotado"
+
+#: init/bamboo-service.js
+msgid "Getting Build Result"
+msgstr "Adquiriendo resultado de la compilación"
+
+#: init/bamboo-service.js
+msgid "Build not finished. Timeout Reached."
+msgstr "Compilacíon no finalizada. Tiempo de espera agotado"
+
+#: init/bamboo-service.js
+msgid "Triggering build for plan: "
+msgstr "Activando compilación para el plan: "
+
+#: init/bamboo-service.js
+msgid "Trigger build finished, build number: "
+msgstr "Activación finalizada, número de compilación:"
+
+#: init/bamboo-service.js
+msgid "Getting build result for plan: "
+msgstr "Adquiriendo resultado para el plan: "
+
+#: init/bamboo-service.js
+msgid "Build result: "
+msgstr "Resultado de la compilación: "
+
+#: public/form/bamboo-ci-form.js
+msgid "Hostname or IP"
+msgstr "Hostname o IP"
+
+#: public/form/bamboo-ci-form.js
+msgid "User"
+msgstr "Usuario"
+
+#: public/form/bamboo-ci-form.js
+msgid "Password"
+msgstr "Contraseña"
+
+#: public/form/bamboo-ci-form.js
+msgid "Port"
+msgstr "Puerto"
+
+#: public/form/bamboo-plan-ci-form.js
+msgid "Bamboo Server"
+msgstr "Servidor de Bamboo"
+
+#: public/form/bamboo-plan-ci-form.js
+msgid "Project key"
+msgstr "Clave de proyecto"
+
+#: public/form/bamboo-plan-ci-form.js
+msgid "Plan key"
+msgstr "Clave del plan"
+
+#: public/form/bamboo-service-form.js
+msgid "Options"
+msgstr "Opciones"
+
+#: public/form/bamboo-service-form.js
+msgid "Trigger build"
+msgstr "Activar compilación"
+
+#: public/form/bamboo-service-form.js
+msgid "Get build result"
+msgstr "Adquirir resultado de compilación"
+
+#: public/form/bamboo-service-form.js
+msgid "Build Number"
+msgstr "Número de compilación"
+
+#: public/form/bamboo-service-form.js
+msgid "Bamboo plan"
+msgstr "Plan de Bamboo"
+
+#: public/form/bamboo-service-form.js
+msgid "Timeout (seconds)"
+msgstr "Tiempo de espera (segundos)"
+
+#: public/form/bamboo-service-form.js
+msgid "Refresh time (seconds)"
+msgstr "Tiempo de refresco (segundos)"
