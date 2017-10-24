@@ -1,4 +1,4 @@
-name: Clarive Bamboo Plugin
+name: Bamboo Plugin
 description: Bamboo plugin will allow you to trigger builds and check their results from a Clarive instance.
 version: 1.0
 icon: https://cdn.rawgit.com/clarive/cla-bamboo-plugin/master/public/icon/bamboo.svg?sanitize=true
