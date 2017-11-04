@@ -4,6 +4,32 @@ reg.register('service.bamboo.build', {
     name: _('Bamboo trigger'),
     icon: '/plugin/cla-bamboo-plugin/icon/bamboo.svg',
     form: '/plugin/cla-bamboo-plugin/form/bamboo-service-form.js',
+    rulebook: {
+        moniker: 'bamboo_trigger',
+        description: _('Check bammbo build or execute it'),
+        required: [ 'plan', 'option', 'timeout', 'check_time'],
+        allow: ['plan', 'option', 'timeout', 'check_time', 'build_number'],
+        mapper: {
+            'check_time':'checkTime',
+            'build_number':'buildNumber'
+        },
+        examples: [{
+            bamboo_trigger: {
+                option: 'build',
+                plan: 'plan-resource',
+                timeout: '10',
+                check_time: '10'
+            }
+        },{
+            bamboo_trigger: {
+                option: 'result',
+                plan: 'plan-resource',
+                timeout: '10',
+                check_time: '10',
+                build_number: '12'
+            }
+        }]
+    },
     handler: function(ctx, config) {
 
         var ci = require("cla/ci");

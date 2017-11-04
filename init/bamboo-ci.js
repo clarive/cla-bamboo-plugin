@@ -5,7 +5,7 @@ ci.createRole("Bamboo");
 ci.createClass("BambooServer", {
     form: '/plugin/cla-bamboo-plugin/form/bamboo-ci-form.js',
     icon: '/plugin/cla-bamboo-plugin/icon/bamboo.svg',
-    roles: ["Bamboo"],
+    roles: ["Bamboo", "ClariveSE"],
     has: {
         hostname: {
             is: "rw",
@@ -34,7 +34,7 @@ ci.createClass("BambooServer", {
 ci.createClass("BambooPlan", {
     form: '/plugin/cla-bamboo-plugin/form/bamboo-plan-ci-form.js',
     icon: '/plugin/cla-bamboo-plugin/icon/bamboo.svg',
-    roles: ["Bamboo"],
+    roles: ["Bamboo", "ClariveSE"],
     has: {
         projectKey: {
             is: "rw",

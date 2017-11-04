@@ -30,7 +30,7 @@
         name: 'buildNumber',
         value: data.buildNumber || '',
         fieldLabel: _('Build Number'),
-        allowBlank: false,
+        allowBlank: true,
         hidden: (data.command != 'result')
     });
 
