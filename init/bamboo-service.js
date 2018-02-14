@@ -44,13 +44,13 @@ reg.register('service.bamboo.build', {
             mid: plan + ''
         });
         if (!bambooPlan) {
-            log.fatal(_("Plan CI doesn't exist"));
+            log.fatal(_("Plan Resource doesn't exist"));
         }
         var bambooServer = ci.findOne({
             mid: bambooPlan.server + ''
         });
         if (!bambooServer) {
-            log.fatal(_("Server CI doesn't exist"));
+            log.fatal(_("Server Resource doesn't exist"));
         }
 
         function triggerBuild(itemUrl, timeout, pause, headers) {
@@ -125,7 +125,7 @@ reg.register('service.bamboo.build', {
 
             log.info(_("Trigger build finished, build number: ") + buildNumber);
             return buildNumber;
-        } else {
+        } else if (option == "result"){
 
             headers = {
                 'accept': 'application/json'
@@ -140,6 +140,8 @@ reg.register('service.bamboo.build', {
             log.info(_("Build result: ") + buildResult);
             return buildResult;
 
+        } else {
+            log.fatal(_("Option not available."))
         }
 
     }
