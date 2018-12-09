@@ -1,6 +1,6 @@
 # Bamboo plugin
 
-<img src="https://cdn.rawgit.com/clarive/cla-bamboo-plugin/master/public/icon/bamboo.svg?sanitize=true" alt="Bamboo Plugin" title="Bamboo Plugin" width="120" height="120">
+<img src="https://cdn.jsdelivr.net/gh/clarive/cla-bamboo-plugin/public/icon/bamboo.svg?sanitize=true" alt="Bamboo Plugin" title="Bamboo Plugin" width="120" height="120">
 
 Bamboo plugin will allow you to trigger builds and check their results from a Clarive instance.
 
